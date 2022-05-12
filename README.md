@@ -23,10 +23,9 @@
 </table>
 
 ### Credits
+Website template credits go to [Haochen Qi](https://www.haochenqi.com/).
 
-### Other
-Website template credits go to [HaochenQi](https://www.haochenqi.com/)
-
+### Miscellaneous
 * `npm start`: starts the development server
 * `npm run build`: bundles into static files for prod
 * `npm run serve`

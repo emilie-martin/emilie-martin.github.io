@@ -22,35 +22,38 @@ const HeroBanner = () => {
             A Sofware Engineering graduate with experience in web development and a passion for game development.
           </Translate>
         </p>
-        <p className="hero__skills">
-          <Translate>My skills: </Translate>
-          <FontAwesomeIcon icon={faJsSquare} />
-          <FontAwesomeIcon icon={faReact} />
-          <FontAwesomeIcon icon={faNodeJs} />
-          <FontAwesomeIcon icon={faAngular} />
-          <FontAwesomeIcon icon={faCss3Alt} />
-          <FontAwesomeIcon icon={faSass} />
-          <FontAwesomeIcon icon={faHtml5} />
-          <FontAwesomeIcon icon={faJava} />
         <p className="hero__descr">
           <Translate>
             If you're a bit of a bookworm, a fan of movies (that aren't jumpscare horror), into all types music or simply some light gaming, I'm sure we could find things to talk about for hours!
           </Translate>
         </p>
+        <p className="hero__talents">
+          <div className="hero__skills">
+            <span><Translate>My skills: </Translate></span>
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faJsSquare} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faReact} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faNodeJs} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faAngular} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faCss3Alt} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faSass} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faHtml5} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faJava} />
+          </div>
           <p>
             <span className="hero__section"><Translate>See also</Translate></span>
             : C++, Redux, Typescript, , Material UI
           </p>
-
-          <Translate>Software: </Translate>
-          <FontAwesomeIcon icon={faGithub} />
-          <FontAwesomeIcon icon={faGitlab} />
-          <FontAwesomeIcon icon={faBitbucket} />
-          <FontAwesomeIcon icon={faGitkraken} />
-          <FontAwesomeIcon icon={faDocker} />
-          <FontAwesomeIcon icon={faJira} />
-          <FontAwesomeIcon icon={faFigma} />
-          <FontAwesomeIcon icon={faUnity} />
+          <div className="hero__software">
+            <span><Translate>Software: </Translate></span>
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faGithub} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faGitlab} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faBitbucket} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faGitkraken} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faDocker} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faJira} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faFigma} />
+            <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faUnity} />
+          </div>
           <p>
             <span className="hero__section"><Translate>See also</Translate></span>
             : Visual Studio, Visual Studio Code, Rider, Concourse, Canva, Jenkins, SonarQube
@@ -68,12 +71,12 @@ const HeroBanner = () => {
 function SocialLinks() {
   return(
     <div className="social__links">
-      <span>Other Links:</span>
+      <span>Links:</span>
       <a href="https://www.linkedin.com/in/emilie-martin-1018/">
-        <FontAwesomeIcon icon={faLinkedin} />
+        <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faLinkedin} />
       </a>
       <a href="https://github.com/emilie-martin">
-        <FontAwesomeIcon icon={faGithubSquare} />
+        <FontAwesomeIcon viewBox="-100 -50 600 600" icon={faGithubSquare} />
       </a>
     </div>
   );

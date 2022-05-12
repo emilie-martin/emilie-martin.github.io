@@ -17,8 +17,14 @@
   text-decoration: underline;
 }
 
+.hero__skills, .hero__software {
+  vertical-align: middle;
+}
+
 .svg-inline--fa {
-  min-width: 20px;
+  min-width: 30px;
+  min-height: 30px;
+  margin-right: 5px;
 }
 
 .hero__image {

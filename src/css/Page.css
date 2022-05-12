@@ -1,6 +1,7 @@
 .content {
-  padding: 6rem 0;
   background-color: var(--ifm-color-primary-lightest);
+  padding: 6rem 0;
+  max-width: 3000px;
 }
 html[data-theme="dark"] .content {
   background-color: var(--ifm-color-grey-2);
@@ -100,6 +101,9 @@ html[data-theme="dark"] .content-btn:hover, .active-btn {
   letter-spacing: 2px;
   font-size: 0.85rem;
   margin-bottom: 0.5rem;
+}
+html[data-theme="dark"] .content-tech-stack span, .content-keywords span {
+  color: black;
 }
 
 @media screen and (min-width: 992px) {

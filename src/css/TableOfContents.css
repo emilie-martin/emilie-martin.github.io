@@ -1,6 +1,7 @@
 .toc {
   background: var(--ifm-color-grey-10);
   padding-bottom: 1rem;
+  max-width: 3000px;
 }
 
 .toc-contents {

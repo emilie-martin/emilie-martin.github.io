@@ -1,0 +1,33 @@
+.heroBannerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
+
+.hero__text {
+  flex: 2;
+  margin: auto;
+}
+
+.hero__name {
+  color: var(--ifm-color-primary);
+}
+
+.hero__section {
+  text-decoration: underline;
+}
+
+.svg-inline--fa {
+  min-width: 20px;
+}
+
+.hero__image {
+  flex: 1;
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}

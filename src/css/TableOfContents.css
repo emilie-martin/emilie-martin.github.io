@@ -1,0 +1,27 @@
+.toc {
+  background: var(--ifm-color-grey-10);
+  padding-bottom: 1rem;
+}
+
+.toc-contents {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.underline {
+  width: 6rem;
+  height: 0.25rem;
+  background: var(--ifm-color-primary);
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+html[data-theme="dark"] .toc {
+  background: var(--ifm-color-grey-1);
+}
+
+@media screen and (min-width: 992px) {
+  .toc-contents {
+    font-size: 3rem;
+  }
+}

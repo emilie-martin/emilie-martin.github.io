@@ -1,0 +1,125 @@
+.content {
+  padding: 6rem 0;
+  background-color: var(--ifm-color-primary-lightest);
+}
+html[data-theme="dark"] .content {
+  background-color: var(--ifm-color-grey-2);
+}
+
+.content-center {
+  width: 80vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.content-title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.content-btn {
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  letter-spacing: var(--spacing);
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+  padding: 0.25rem 0;
+  line-height: 1;
+  color: var(--ifm-black);
+}
+html[data-theme="dark"] .content-btn {
+  color: var(--ifm-white);
+}
+.content-btn:hover {
+  color: var(--ifm-color-primary-dark);
+}
+html[data-theme="dark"] .content-btn:hover, .active-btn {
+  color: var(--ifm-color-primary-dark);
+}
+
+.active-btn {
+  color: var(--ifm-color-primary-dark);
+  box-shadow: 0 2px var(--ifm-color-primary-darkest);
+}
+
+.content-info h3 {
+  font-weight: 400;
+}
+.content-info h4 {
+  text-transform: uppercase;
+  color: var(--ifm-color-grey-5);
+  background: var(--ifm-color-grey-9);
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  border-radius: var(--radius);
+}
+
+.content-date {
+  letter-spacing: var(--spacing);
+}
+
+.content-descr {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.content-descr p {
+  margin-bottom: 0;
+  /* color: var(--ifm-color-grey-3); */
+}
+
+.content-icon {
+  color: var(--ifm-color-primary-light);
+}
+
+.content-tech-stack,
+.content-keywords {
+  margin-bottom: 1rem;
+}
+.content-tech-stack span,
+.content-keywords span {
+  display: inline-block;
+  background: var(--ifm-color-grey-9);
+  color: var(--ifm-color-grey-3);
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .content-center {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 4rem;
+  }
+  .btn-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .content-btn {
+    margin-bottom: 1rem;
+  }
+  .active-btn {
+    box-shadow: -2px 0 var(--ifm-color-primary-dark);
+  }
+  .content-btn:hover {
+    box-shadow: -2px 0 var(--ifm-color-primary-Dark);
+  }
+}

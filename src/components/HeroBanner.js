@@ -32,6 +32,11 @@ const HeroBanner = () => {
           <FontAwesomeIcon icon={faSass} />
           <FontAwesomeIcon icon={faHtml5} />
           <FontAwesomeIcon icon={faJava} />
+        <p className="hero__descr">
+          <Translate>
+            If you're a bit of a bookworm, a fan of movies (that aren't jumpscare horror), into all types music or simply some light gaming, I'm sure we could find things to talk about for hours!
+          </Translate>
+        </p>
           <p>
             <span className="hero__section"><Translate>See also</Translate></span>
             : C++, Redux, Typescript, , Material UI

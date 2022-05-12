@@ -65,7 +65,7 @@ const projects = [
     date: "August 2021 - April 2022",
     descr: {
       1: "In collaboration with Hacksmith Industries, we were tasked with creating a Virtual Reality replica of their workshop studio. Through this project, they hoped to increase and enhance their relationship and interactions with their millions of fans and followers by giving them insight and sneak peeks on how their projects came to life.",
-      2: "In this virtual space, they would be able to present their projects to their fans, and have them interact their projects. Visitors would be able to manipulate, dismantle, and interact with the 3D models of their projects in a new and dynamic matter.",
+      2: "In this virtual space, Hacksmith Industries would be able to present their projects to their fans, and have them interact their projects. Having uploaded 3D SolidWork models of their projects beforehand, visitors would be able to manipulate, dismantle, and interact with their projects in a new and dynamic matter.",
       3: "This project was implemented to be cross-platform and multiplayer. As such, users could join from a computer or a VR headset, see other present visitors, walk around the virtual workshop and interact with the displayed projects.",
     },
     techStack: ["Hacksmith Industries", "Virtual Reality", "Unity", "Cross-platform", "Multiplayer"],
@@ -86,8 +86,8 @@ const projects = [
     title: "Xeroxstagram",
     date: "January 2020 - April 2020",
     descr: {
-      1: "Xeroxstagram was a student assignment with the initial goal of implementing the following basic features: account creation, account following, account statistics (followers, following, post count), post creation, user feed, post commenting and liking.",
-      2: "This was one of the first full-scale projects I worked on in an academic context; implementing everything from backend to frontend with my teammates and colleagues.",
+      1: "Xeroxstagram was a base project started with the goal of achieving the following basic features: account creation, account following, account statistics (followers, following, post count), post creation, user feed, post commenting and liking.",
+      2: "This was one of the first full-scale projects I worked on; implementing everything from backend to frontend with my teammates and colleagues.",
     },
     techStack: ["JavaScript", "React", "Java", "Spring Boot", "Hibernate", "Maven", "MySQL", "Mockito"],
     images: ["img/xeroxstagram/user-feed.png", "img/xeroxstagram/post-editing.png", "img/xeroxstagram/user-settings.png"],
